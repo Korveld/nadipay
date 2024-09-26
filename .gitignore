@@ -1,0 +1,11 @@
+node_modules
+yarn.lock
+*.iml
+*.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.idea
+.zip
+.env
+.env.prod

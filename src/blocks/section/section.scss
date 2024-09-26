@@ -1,0 +1,14 @@
+.section {
+
+  @media only screen and (max-width: theme('screens.mdMax.max')) {
+  }
+
+  &--hero {
+    padding: 132px 0 0;
+    background: theme('colors.primary');
+
+    @media only screen and (max-width: theme('screens.mdMax.max')) {
+      padding: 104px 0 0;
+    }
+  }
+}

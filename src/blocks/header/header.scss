@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 32px 48px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: theme('screens.mdMax.max')) {
+    padding: 24px;
+  }
+
+  .btn {
+    padding: 2px 16px;
+  }
+
+  &__logo {
+
+    @media only screen and (max-width: theme('screens.mdMax.max')) {
+      width: 99px;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+h1,
+.h1 {
+  font-size: 56px;
+  line-height: 84px;
+  font-weight: 700;
+
+  @media only screen and (max-width: theme('screens.mdMax.max')) {
+    font-size: 28px;
+    line-height: 135%;
+    font-weight: 700;
+  }
+}
+
+h2,
+.h2 {
+
+  @media only screen and (min-width: theme('screens.md')) {
+  }
+}
+
+h3,
+.h3 {
+
+  @media only screen and (min-width: theme('screens.md')) {
+  }
+}
+
+h4,
+.h4 {
+
+  @media only screen and (min-width: theme('screens.md')) {
+  }
+}
+
+h5,
+.h5 {
+
+  @media only screen and (min-width: theme('screens.md')) {
+  }
+}
+
+h6,
+.h6 {
+
+  @media only screen and (min-width: theme('screens.md')) {
+  }
+}
+
+p,
+.p {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+
+  @media only screen and (max-width: theme('screens.mdMax.max')) {
+  }
+
+  .p-sm {
+  }
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+a {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+hr {
+}
+
+ul {
+
+  li {
+  }
+}
+
+ol {
+
+  li {
+  }
+}
+
+table {
+}
+
+tr {
+}
+
+th {
+}
+
+td {
+}
+
+input {
+
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {
+
+  &:focus {
+    outline: none;
+  }
+}
+
+select {
+}
+
+button {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type='submit'] {
+  border: 0;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div,
+a,
+a:active,
+a:focus {
+  outline: none;
+}

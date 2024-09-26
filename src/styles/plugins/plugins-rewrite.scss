@@ -1,0 +1,13 @@
+// lazysizes
+
+/* fade image in after load */
+.lazyload,
+.lazyloading {
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity var(--transition-base);
+}

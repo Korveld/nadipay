@@ -1,0 +1,56 @@
+.hero {
+
+  &__img {
+    margin-top: -345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: theme('screens.mdMax.max')) {
+      margin-top: 48px;
+    }
+
+    img {
+      display: block;
+    }
+  }
+
+  &__text-wrap {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: theme('screens.mdMax.max')) {
+      margin-bottom: 48px;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 48px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 33px;
+      font-weight: 600;
+
+      @media only screen and (max-width: theme('screens.mdMax.max')) {
+        font-size: 17px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  &__text-left {
+
+    @media only screen and (min-width: theme('screens.md')) {
+      max-width: 350px;
+    }
+  }
+
+  &__text-right {
+
+    @media only screen and (min-width: theme('screens.md')) {
+      max-width: 392px;
+    }
+  }
+}
