@@ -6,6 +6,6 @@ yarn.lock
 *.sublime-workspace
 *.komodoproject
 .idea
-.zip
+*.zip
 .env
 .env.prod
